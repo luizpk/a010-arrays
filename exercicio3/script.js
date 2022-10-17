@@ -1,23 +1,31 @@
-//Agora, vamos manipular os arrays, adicionando ou removendo informações. Para isso, crie **três** novos arrays, chamados `nomeDoArrayOriginalCopia`, e faça o que se pede abaixo nas cópias dos arrays originais;
 
-const exercicio3Array = ['alface','diamante','Carlos',256,'couve',89]
-const exercicio3ArrayOriginal = ['alface','diamante','Carlos',256,'couve',89]
-const exercicio3ArrayCopia = ['alface','diamante','Carlos',256,'couve',89]
+// # Exercício 3
+
+// Agora, vamos manipular os arrays, adicionando ou removendo informações. Para isso, crie **três** novos arrays, chamados `nomeDoArrayOriginalCopia`, e faça o que se pede abaixo nas cópias dos arrays originais;
+
+const arrayNum = [25,69,34,87,8,3,15]
+const arrayString = ["batata","cebola","cenoura","alho"]
+const arrayMix = [25,"arroz","batata",65,5>2,]
 
 
 
+// - Adicione um item `number` ao primeiro array. Utilize `console.log()` para exibir o original e a cópia;
 
-//- Adicione um item `number` ao primeiro array. Utilize `console.log()` para exibir o original e a cópia;
-exercicio3Array.push(96)
-console.log(exercicio3Array)
+console.log(arrayNum)
+arrayNum.push(100)
+console.log(arrayNum)
 
-//- Remova o último item do segundo array. Utilize `console.log()` para exibir o original e a cópia;
-exercicio3ArrayOriginal.pop()
-console.log(exercicio3ArrayOriginal)
+// - Remova o último item do segundo array. Utilize `console.log()` para exibir o original e a cópia;
 
-//- Remova o segundo item do terceiro array. Utilize `console.log()` para exibir o original e a cópia;
-exercicio3ArrayCopia.splice(1,1)
-console.log(exercicio3ArrayCopia)
+console.log(arrayString)
+arrayString.pop()
+console.log(arrayString)
+
+// - Remova o segundo item do terceiro array. Utilize `console.log()` para exibir o original e a cópia;
+
+console.log(arrayMix)
+arrayMix.splice(1,1)
+console.log(arrayMix)
 
 
 
